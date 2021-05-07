@@ -42,16 +42,48 @@ body {
 .header .header_btn{
     display: flex;
     flex-wrap: wrap;
-    width: 120px;
+    max-width: 120px;
+    
 }
+
+
+/* .header .menu_overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .menu {
+    display: none;
+    background-color: rgba(0,0,0,.7);
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    transition: all .5s;
+}
+
+.header .menu li a {
+    display: block;
+    font-size: 3em;
+    font-weight: 700;
+    text-decoration: none;
+} */
 
 .header .header_menu {
     min-width: 120px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    margin-left: 130px;
 }
+
 
 
 .header .menu_line {
@@ -138,7 +170,7 @@ body {
 
 .promo .promo_subdescr{
     position:absolute;
-    top: 45px;
+    top: 58px;
     font-style: normal;
     font-weight: normal;
     font-size: 94px;
@@ -154,4 +186,61 @@ body {
     width:80px;   
     top: 13px;
 }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.blog .blog_cards {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 190px;
+}
+
+.blog .blog_card {
+    max-width: 399px;
+    max-height: 444px;
+    margin-top: 48px;
+    margin-right: 1px;
+}
+
+.blog .blog_card .card_subtitle {
+    display: flex;
+    margin-top: 24px;
+}
+
+.blog .blog_card .card_subtitle .card_date{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    
+    margin-right: 26px;
+}
+
+.blog .blog_card .card_subtitle .card_category {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.blog .blog_card .card_title {
+    margin-top: 24px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;    
+    color: #121212;
+}
+
 
