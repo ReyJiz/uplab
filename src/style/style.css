@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto' sans-serif;
+}
+
+
+.header{ 
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    padding-top: 40px;
+}
+
+.header .logo {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+
+}
+
+.header_container {
+    width: 1224px;
+    margin: 0 auto;
+}
+
+.header_wrapper {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .header_btn{
+    display: flex;
+    flex-wrap: wrap;
+    width: 120px;
+}
+
+.header .header_menu {
+    min-width: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.header .menu_line {
+    position:relative;
+}
+
+.header .menu_line::after {
+    content:"";
+    position:absolute;
+    border-top:2px solid white;
+    width:50px;
+    bottom: 2px;
+}
+
+.header .menu_line::before {
+    content:"";
+    position:absolute;
+    border-top:2px solid white;
+    width:50px;
+    margin-top: 5.5px;
+    
+}
+
+.header .menu_text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+
+}
+
+.header .header_btn .header_search {
+    padding-right: 61px;
+}
+
+.header .header_search {
+    display: block;
+}
+
+.header .header_account {
+    display: block;
+}
+
+
+.promo_container {
+    margin: 0 auto;
+    max-width: 1224px;
+}
+
+.promo {
+    padding-top: 134px;
+    min-height: 660px;
+    background-color: black;
+}
+
+.promo .row h1 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 94px;
+    color: #FFFFFF;
+}
+
+.promo .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.promo .row .item {
+    max-width: 600px;
+    max-height: 226px;
+    position: relative;
+}
+
+.promo .promo_descr{
+    padding-left: 120px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #2FFBC8;
+}
+
+.promo .promo_subdescr{
+    position:absolute;
+    top: 45px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 94px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.1;
+}
+
+.promo span{
+    content:"";
+    position:absolute;
+    border-top:1px solid #2FFBC8;
+    width:80px;   
+    top: 13px;
+}
+
