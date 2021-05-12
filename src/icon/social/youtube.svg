@@ -1,0 +1,10 @@
+<svg width="21" height="15" viewBox="0 0 21 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="youtube">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="21" height="15">
+<path id="Clip 2" fill-rule="evenodd" clip-rule="evenodd" d="M0 0.000488281H20.409V14.3315H0V0.000488281Z" fill="white"/>
+</mask>
+<g mask="url(#mask0)">
+<path id="Fill 1" fill-rule="evenodd" clip-rule="evenodd" d="M7.93788 10.4445V3.90349L13.5069 7.17449L7.93788 10.4445ZM16.8919 0.000488281H3.51588C3.51588 0.000488281 -0.00012207 0.000488281 -0.00012207 3.51749V10.8145C-0.00012207 10.8145 -0.00012207 14.3315 3.51588 14.3315H16.8919C16.8919 14.3315 20.4099 14.3315 20.4099 10.8145V3.51749C20.4099 3.51749 20.4099 0.000488281 16.8919 0.000488281Z" fill="white"/>
+</g>
+</g>
+</svg>
