@@ -415,9 +415,11 @@ footer .footer_social {
     font-size: 12px;
     letter-spacing: 2px;
     text-transform: uppercase;
+ }
 
-
-}
+ .main_title .time_read .view_pdf {
+     padding-left: 36px;
+ }
 
 .main_title .title {
     display: flex;
@@ -427,18 +429,16 @@ footer .footer_social {
 }
 
 .main_title .title h1 {
-
     font-style: normal;
     font-weight: normal;
     font-size: 36px;
     line-height: 49px;
     color: #2FFBC8;
-
 }
 
 .main_title .title_container {
     margin: 0 auto;
-    min-width: 1224px;
+    width: 1224px;
 }
 
 .main_title .title_row {
@@ -487,4 +487,103 @@ footer .footer_social {
 
 .main_title .title_row .category_subtitle .category_item {
     padding-right: 26px;
+}
+
+.main_text {
+    position: relative;
+    background-color: #F2F2F2;
+}
+
+.main_text .main_text__grid{
+    display: flex;
+}   
+
+.main_text .main_text__column{
+    display: flex;
+}   
+
+.main_text .social {
+    position: absolute;
+    top: 130px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.main_text .social .social_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 79px;
+    height: 79px;
+    background: #2FFBC8;
+}
+
+
+.main_text .text_field {
+    margin-top: 129px;
+    max-width: 600px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #121212;
+
+}
+
+.main_text .text_field .big_symbol{
+    float: left;
+    padding: 40px;
+    padding-left: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 144px;
+    color: #2FFBC8;
+}
+
+.main_text .contact_block {
+    width: 480px;
+    Height: 353px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -130px;
+    right: 0;
+}
+
+.main_text .contact_info .contact_info__title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #000000;
+}
+
+.main_text .contact_block
+
+.green {
+    color: #2FFBC8;
+}
+
+.slider {
+    border: 2px solid #000;
+    max-width: 80%;
+    overflow: hidden;
+}
+
+.slider .slider_line {
+    display: flex;
+    background-color: coral;
+    transition: all ease 1s;
+}
+
+.slider_container .button{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background-color: #2FFBC8;
+    font-size: 45px;
 }
