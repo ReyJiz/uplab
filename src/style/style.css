@@ -607,6 +607,10 @@ footer .footer_social {
 
 .slider_container .button{
     position: relative;
+    display: flex;
+    justify-content: center;
+    left: 1160px;
+    bottom: 560px;
     width: 80px;
     height: 80px;
     background-color: #2FFBC8;
