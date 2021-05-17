@@ -595,6 +595,7 @@ footer .footer_social {
 }
 
 .slider {
+    position: relative;
     max-width: 100%;
     overflow: hidden;
 }
@@ -606,15 +607,19 @@ footer .footer_social {
 }
 
 .slider_container .button{
-    position: relative;
+    position: absolute;
     display: flex;
     justify-content: center;
-    left: 1160px;
-    bottom: 560px;
+    left: 1150px;
+    bottom: 480px;
     width: 80px;
     height: 80px;
     background-color: #2FFBC8;
     font-size: 45px;
+}
+
+.slider_container .slider-prev {
+    bottom: 400px;
 }
 
 .main_text__container {
