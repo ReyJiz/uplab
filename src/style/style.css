@@ -505,7 +505,7 @@ footer .footer_social {
 
 .main_text .main_text__column{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }   
 
 .main_text .social {
@@ -651,6 +651,12 @@ footer .footer_social {
     color: #121212;
     margin-top: 73px;
     margin-left: 110px;
-    padding-bottom: 80px;
+    padding-bottom: 180px;
     
+}
+
+.main_text .text_category {
+    background-color: white;
+    margin-left: 92px;
+    height: 448px;
 }
