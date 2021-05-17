@@ -642,7 +642,7 @@ footer .footer_social {
 }
 
 .main_text .text_field_2 p{
-    min-width: 600px;
+    width: 600px;
     margin-right: 120px;
     font-style: normal;
     font-weight: normal;
@@ -657,7 +657,7 @@ footer .footer_social {
 
 .main_text .text_category {
     background-color: white;
-    margin-left: 229px;
+    margin-left: 10px;
     height: 448px;
     width: 480px
 }
